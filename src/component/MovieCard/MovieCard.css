@@ -1,0 +1,57 @@
+.movie-wrapper{
+    padding: 3rem 0rem;
+    position: relative;
+}
+.movie-wrapper .row{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* grid-template-rows: repeat(auto-fill, minmax(350px, 1fr)); */
+    grid-gap: 2rem;
+}
+
+.row .card{
+    position: relative;
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.row .card:hover{
+    transform: scale(1.1);
+}
+.card img{
+    z-index: 1;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.details{
+    padding: .7rem;
+}
+.details div{
+    justify-content: space-between;
+}
+.details span{
+    font-size: .9rem;
+    color: #f3f3f3;
+    text-transform: uppercase;
+}
+.details span:last-child{
+    color: #25f079;
+    font-weight: bold;
+}
+.card .year{
+    color: #f3f3f3;
+    padding: 1rem;
+    display: block;
+}
+.card h3{
+    font-size: 1.1rem;
+    color: #d6d69f;
+}
+.error-title{
+    color: #ddd;
+    padding: 4rem 0rem;
+    text-align: center;
+}

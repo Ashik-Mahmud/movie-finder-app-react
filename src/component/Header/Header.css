@@ -1,0 +1,42 @@
+/* HEADER  */
+
+header{
+    background-color: #333;
+    padding: 1rem;
+}
+
+.container{
+    max-width: min(100%, 1100px);
+    margin-inline: auto;
+    font-family: poppins;
+}
+h1{
+    color: red;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.navbar .primary-menu{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+.primary-menu li{
+    padding: 0rem 1rem;
+    list-style: none;
+}
+.primary-menu a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(224, 224, 224);
+}

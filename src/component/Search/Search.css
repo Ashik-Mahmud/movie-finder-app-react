@@ -1,0 +1,40 @@
+.movies-wrapper{
+    margin: 2rem auto;
+}
+.movies-wrapper h1{
+    color: #a3a2a2;
+    font-size: 2rem;
+    font-family: poppins;
+    margin: 1rem 0rem;
+}
+.search{
+    display: flex;
+    position: relative;
+    background: #333;
+    max-width: min(100% - 2rem, 500px);
+    margin-inline: auto;
+    padding: .4rem;
+    border-radius: 50px;
+    margin-top: 2rem;
+}
+.search input{
+    background: transparent;
+    color: #ffff;
+    font-size: 1rem;
+    font-family: poppins;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    width: 100%;
+}
+.search button{
+    background: var(--primary-color);
+    padding: .7rem 2rem;
+    border: none;
+    outline: none;
+    color: #ffff;
+    cursor: pointer;
+    font-family: poppins;
+    border-radius: 50px;
+    font-size: 1rem;
+}

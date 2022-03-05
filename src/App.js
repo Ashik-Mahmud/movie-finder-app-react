@@ -1,24 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Counter from './component/Counter/Counter';
+import Header from './component/Header/Header';
+import MovieCard from './component/MovieCard/MovieCard';
+import Search from './component/Search/Search'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+         <Header />
+         <Search />
+      </>
   );
 }
 
