@@ -11,3 +11,9 @@ This is simple React application which one supported to search any kind of movie
 - Google Fonts (Poppins)
 
 
+# Demo Link of About
+
+# Demo Preview 
+![imageScreenshot](./preview.png)
+
+> Thanks for reach out me on github
