@@ -4,9 +4,14 @@ header{
     background-color: #333;
     padding: 1rem;
 }
+@media (max-width: 765px) {
+    header{
+        display: none;
+    }
+}
 
 .container{
-    max-width: min(100%, 1100px);
+    max-width: min(100% - 2rem , 1100px);
     margin-inline: auto;
     font-family: poppins;
 }
